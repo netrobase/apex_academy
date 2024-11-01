@@ -37,17 +37,17 @@ const Header = () => {
 
       <div className="hidden lg:flex justify-between items-center gap-4 mx-auto flex-grow">
         <ul className="flex justify-center items-center gap-3 text-white flex-grow">
-          <Link href="discover" spy={true} smooth={true} duration={500}>
+          <Link href="/" >
             <div className="text-[#EFEFEF] font-normal text-[14px] leading-[24px] font-[Poppins]">
               Home
             </div>
           </Link>
-          <Link href="#about" spy={true} smooth={true} duration={500}>
+          <Link href="#about" >
             <div className="text-[#EFEFEF] font-normal text-[14px] leading-[24px] font-[Poppins]">
                About Us
             </div>
           </Link>
-          <Link href="benefits" spy={true} smooth={true} duration={500}>
+          <Link href="">
             <div className="text-[#EFEFEF] font-normal text-[14px] leading-[24px] font-[Poppins]">
               Tutorials
             </div>
