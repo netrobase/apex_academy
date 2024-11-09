@@ -23,6 +23,7 @@ const Hero = () => {
             width={534}
             height={534}
             className="rounded-lg"
+            priority
           />
         </div>
       </div>
