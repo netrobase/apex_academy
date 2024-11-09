@@ -33,7 +33,7 @@ export default function FeatureGrid() {
   return (
     <div className="max-w-6xl mx-auto px-4 py-10 grid grid-cols-1 md:grid-cols-3 gap-8">
       {features.map((feature, index) => (
-        <div key={index} className="text-center p-6 shadow-lg rounded-lg">
+        <div key={index} className="text-center p-6 shadow-lg rounded-lg"  data-aos="fade-up">
           <div className="flex justify-center mb-4">{feature.icon}</div>
           <h3 className="text-white font-poppins text-[20px] font-medium leading-[36px] mb-2">{feature.title}</h3>
           <p className="text-justify text-center text-gray-300 font-poppins text-base font-normal leading-[1.9]">{feature.description}</p>

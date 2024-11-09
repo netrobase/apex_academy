@@ -6,7 +6,7 @@ const About = () => {
       className="relative bg-cover bg-center bg-no-repeat mx-auto max-w-[1440px]"
       style={{ backgroundImage: "url('/images/about-bg.png')" }}
     >
-      <div className="relative z-10 text-white p-10 rounded-lg max-w-3xl mx-auto">
+      <div className="relative z-10 text-white p-10 rounded-lg max-w-3xl mx-auto" data-aos="zoom-in">
         <h2 className="text-white text-center font-poppins text-5xl font-semibold leading-normal">
           About Us
         </h2>

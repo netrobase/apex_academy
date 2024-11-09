@@ -10,13 +10,13 @@ const Hero = () => {
       <div className="relative flex justify-center items-center w-full lg:w-1/2 order-1 lg:order-2 px-5 py-0">
         
         {/* Background Slanted Image */}
-        <div 
+        <div data-aos="fade-right"
           className="absolute transform rotate-[-5deg] left-0 top-0 rounded-lg opacity-80"
           style={{ width: '434px', height: '434px', backgroundColor: 'rgba(40, 85, 166, 0.20)', zIndex: 0 }} // Tailwind blue-500 color
         ></div>
 
         {/* Foreground Image (Boy with Books) */}
-        <div className="relative transform rotate-[5deg] z-10">
+        <div className="relative transform rotate-[5deg] z-10" data-aos="fade-left">
           <Image 
             src="/images/hero.png" 
             alt="Boy with Books"
@@ -29,7 +29,7 @@ const Hero = () => {
       </div>
 
       {/* Text Section */}
-      <div className="flex justify-center items-start flex-col gap-6 lg:w-1/2 px-10 py-10 lg:px-20 lg:py-20 order-2 lg:order-1 self-stretch">
+      <div className="flex justify-center items-start flex-col gap-6 lg:w-1/2 px-10 py-10 lg:px-20 lg:py-20 order-2 lg:order-1 self-stretch" data-aos="fade-right">
         <h1 className="text-[#F9F9F9] font-poppins text-5xl font-normal leading-[126%]">
           Welcome to Apex Academy
         </h1>
