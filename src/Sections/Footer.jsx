@@ -2,6 +2,7 @@ import React from 'react';
 import { FaFacebookF, FaTwitter, FaInstagram } from 'react-icons/fa';
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
   return (
     <footer className="bg-[rgba(218,228,255,0.07)] rounded-[40px] m-10 text-white py-10">
       <div className="container mx-auto px-6 md:px-12 grid grid-cols-1 md:grid-cols-5 gap-8">
@@ -56,7 +57,7 @@ const Footer = () => {
         </div>
         
       </div>
-      <div className=" text-center text-white/40">&copy; 2024. <a href="https://www.netrobase.com" className='underline'> Netrobase Limited</a> All rights reserved</div>
+      <div className=" text-center text-white/40 mt-5">&copy;  {currentYear}. Made with ❤️ <a href="https://www.netrobase.com" className='underline'> Netrobase Limited</a></div>
     </footer>
   );
 };
