@@ -12,7 +12,7 @@ const Hero = () => {
         {/* Background Slanted Image */}
         <div data-aos="fade-right"
           className="absolute transform rotate-[-5deg] left-0 top-0 rounded-lg opacity-80"
-          style={{ width: '434px', height: '434px', backgroundColor: 'rgba(40, 85, 166, 0.20)', zIndex: 0 }} // Tailwind blue-500 color
+          style={{ width: '434px', height: '434px', backgroundColor: 'rgba(40, 85, 166, 0.20)', zIndex: 0 }} 
         ></div>
 
         {/* Foreground Image (Boy with Books) */}
