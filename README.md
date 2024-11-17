@@ -1,6 +1,6 @@
 # Kralis Templates -Project A
 
-Kralis Templates is a collection of 26 school website templates designed for professional school websites. This repository is dedicated to Project A, also known as Crest View.
+Kralis Templates is a collection of 26 school website templates designed for professional school websites. This repository is dedicated to Project A, also known as Apex Academy.
 
 
 ## Technologies Used
